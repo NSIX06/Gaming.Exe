@@ -7,6 +7,10 @@
     --texto-titulos: #fff;
     --toogle: #000000;
     --logo: url("light.jpg");
+    --button: #FFFFFF;
+    --press: #FF0000;
+    --plano-fundo2:  #272626;
+
     
 }
 
@@ -18,7 +22,11 @@
     --titulo: #FFF;
     --barra: #272626;
     --toogle: #FFFFFF;
-    --logo: url("dark.jpg")
+    --logo: url("dark.jpg");
+    --button: #FF0000;
+    --press:  #FFFFFF;
+    --plano-fundo2:  #FFFFFF;;
+    
     
     
 }
@@ -95,15 +103,83 @@ img{
 
 
 
+
 #sess h2 {
+    color: var(--titulo);
     padding: 3% 2% ;
     align-items: center;
     text-align: center;
+  
 }
+
+
+
+#destaq h2 {
+
+
+    padding: 2% 1%;
+    text-align: center;
+}
+
+#carde{
+    
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2% 2%;
+    gap: 20px;
+    
+
+
+}
+
+
+.card img{
+
+    background-color: var(--plano-fundo2)!important;
+    width: 100px;
+    height: 100px;
+}
+
+.card{
+   
+    color: var(--plano-fundo);
+    background-color: var(--plano-fundo2)!important;
+    padding: 10% 5%;
+    align-items: center;
+    align-content: center;
+    width: 300px!important;
+    height: 300px!important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+
+.btn {
+    background-color: var(--button)!important;
+    color: var(--press)!important;
+    border: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
 
 
 #carde2 img{
 
+    
+    background-color: var(--plano-fundo2);
     width: 200px;
     height: 200px;
     display: flex;
@@ -112,6 +188,7 @@ img{
 
 #carde2{
 
+   
     display: flex;
     align-items: center;
     text-align: center;
@@ -126,7 +203,7 @@ img{
 
 .card2{
 
-    
+    color: var(--titulo);
     width: 60%!important;
     height: 10%!important;
     align-items: center;
@@ -139,42 +216,52 @@ img{
     
 }
 
-.btn btn-primary2{
 
-    align-items: center;
-    font-size: 15px;
+
+
+
+
+
+#nuss{
+ 
+        color: var(--titulo);
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding: 4% 4%;
+        text-align: left;
+   
 }
 
-#carde{
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+.container-banner img{
+
+    display: none;
+    width: 500px;
     justify-content: space-between;
-    flex-direction: column;
-    padding: 2% 2%;
-    gap: 20px;
-    
-
-
 }
 
-.card{
 
+
+.container-banner 
     
-    width: 20%!important;
-    height: 10%!important;
+    {
+    
     display: flex;
+    float: right;
     justify-content: space-between;
-    flex-direction: row;
-    font-size: 15px;
-
     
-}
+    }
 
-
-.btn btn-primary{
-
-    align-items: center;
-    font-size: 15px;
-}
+    footer{
+        
+        color: var(--titulo);
+        background-color: var(--barra);
+        width: 100%;
+        margin: 0;
+        padding: 0.5% 0;
+        text-align: center;
+        margin: 0;
+        size: 15px;
+        font-size: 10px;
+    }
