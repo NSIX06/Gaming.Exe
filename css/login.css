@@ -1,0 +1,121 @@
+.main-login{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+h1{
+position: relative;
+}
+
+h1 {
+
+text-align: center;
+color: #000000;
+top: 200px;
+font-size: 25px;
+font-weight: 750;
+}
+
+.right-login{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.card-login{
+position: relative;
+}
+
+.card-login{
+top: 180px;
+margin: 50px 50px;
+width: 600px;
+height: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 40px 35px;
+background: #fff;
+border-radius: 10px;
+border: 1px solid #cfcdcd;
+
+}
+
+
+
+.textfield{
+display: flex;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+align-content: center;
+margin: 10px 0px ;
+color: #CDCDCD;
+
+}
+
+.textfield > input{
+width: 546px;
+height: 40px;
+flex-shrink: 0;
+border: none;
+border-radius: 10px;
+padding: 10px;
+border: 1px solid #EDEDED;
+background: #CDCDCD;
+color: #CDCDCD;
+font-size: 12pt;
+outline: none;
+box-sizing: border-box;
+background-color: #fff;
+}
+
+.textfield > label{
+color: #000000de;
+margin-bottom: 10px; 
+}
+
+.textfield > input::placeholder{
+color: #CDCDCD;
+
+
+}
+
+.btn-login{
+position: relative;
+}
+
+.btn-login{
+width: 83px;
+height: 44px;
+text-align: center;
+font-size: 10px;
+flex-shrink: 0;
+border: none;
+outline: none;
+text-transform: uppercase;
+font-weight: 500;
+color: #fff;
+border-radius: 10px;
+background: #06F;
+cursor: pointer;
+right: -236px;
+top: 65px;
+
+}
+
+.form-lembrar{
+position: relative;
+}
+
+.form-lembrar{
+left: -165px;
+box-shadow: #000000;
+}
