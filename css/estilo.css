@@ -10,6 +10,9 @@
     --button: #FFFFFF;
     --press: #FF0000;
     --plano-fundo2:  #272626;
+    --login: #272626;
+    --place: #B6B6B6;
+    --lem: #B6B6B6;
 
     
 }
@@ -20,12 +23,16 @@
 {
     --plano-fundo: #272626;
     --titulo: #FFF;
+    --texto-titulos: #000000;
     --barra: #272626;
     --toogle: #FFFFFF;
     --logo: url("dark.jpg");
     --button: #FF0000;
     --press:  #FFFFFF;
-    --plano-fundo2:  #FFFFFF;;
+    --plano-fundo2:  #FFFFFF;
+    --login: #FFFFFF;
+    --place: #000000;
+    --lem: #000000;
     
     
     
