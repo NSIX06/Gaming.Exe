@@ -15,7 +15,9 @@ nav
     
 }
 
-
+h1{
+    color: var(--titulo);
+}
 
 .main-login{
     display: flex;
@@ -90,12 +92,12 @@ h2{
 
 .text--field > label{
     top: 40px;
-    color: #f0ffffde;
+    color: var(--lem);
     margin-bottom: 10px; 
 }
 
 .text--field > input::placeholder{
-    color: var(--palce)
+   
 
 }
 
@@ -125,18 +127,20 @@ h2{
 }
 
 .btn-login{
-   
+  
+    font-size: 15px;
+    background-color: var(--texto-titulos);
+    color: var(--titulo);
     text-align: center;
     top: 05px;
     right: -155px;
-    padding: 10px;
-    margin: 20px;
+    padding: 16px 16px;
+    margin: 25px;
     border: none;
     border-radius: 8px;
     outline: none;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 3px;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000056;
 }
@@ -160,6 +164,11 @@ footer{
 
 @media only screen and (max-width: 600px){
     
+    footer{
+        text-align: center;
+        font-size: 10px;
+    }
+
     .form-lembrar{
         position: relative;
     }
@@ -176,7 +185,7 @@ footer{
 
     .btn-login{
         
-        top: 25px;
+        top: 20px;
         left: 1px;
     }
 

@@ -9,10 +9,11 @@
     --logo: url("light.jpg");
     --button: #FFFFFF;
     --press: #FF0000;
-    --plano-fundo2:  #272626;
+    --plano-fundo2: #272626;
     --login: #272626;
     --place: #B6B6B6;
     --lem: #B6B6B6;
+    --lemb: #B6B6B6;
 
     
 }
@@ -33,6 +34,7 @@
     --login: #FFFFFF;
     --place: #000000;
     --lem: #000000;
+    --lemb: #FFFFFF;
     
     
     
@@ -152,12 +154,11 @@ img{
     
 
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
     flex-direction: column;
-    padding: 2% 2%;
-    gap: 20px;
+    text-align: center;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
     
 
 
@@ -166,25 +167,18 @@ img{
 
 .card img{
 
+    padding: 2% 1%;
+    width: 286px;
+    height: 286px;
+    align-items: center;
     background-color: var(--plano-fundo2)!important;
-    width: 100px;
-    height: 100px;
+
 }
 
 .card{
    
-    color: var(--plano-fundo);
+    color: var(--texto-titulos);
     background-color: var(--plano-fundo2)!important;
-    padding: 10% 5%;
-    align-items: center;
-    align-content: center;
-    width: 300px!important;
-    height: 300px!important;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    font-size: 15px;
-    cursor: pointer;
 
     
 }
@@ -195,7 +189,6 @@ img{
     border: 20px;
     text-decoration: none;
     border-radius: 10px;
-    align-items: center;
     font-size: 15px;
     cursor: pointer;
 }
@@ -254,18 +247,29 @@ img{
 
 
 
+#nuss{
 
+    position: relative;
+}
 
 #nuss{
- 
+       
         color: var(--titulo);
         display: flex;
         flex-direction: column;
-        font-size: 15px;
-        padding: 4% 4%;
-        text-align: left;
-   
+        font-size: 25px;
+        padding: 2% 1%;
+
+       
 }
+
+
+#nuss h2{
+
+    padding: 4% 4%;
+}
+
+
 
 
 
@@ -287,15 +291,33 @@ img{
     }
 
 
+   
+    .container img {
 
-
+        display: none;
+    }
 
 
     @media (min-width: 1280px)
 {
 
 
+    
 
+
+  
+
+    .container img{
+
+        display: block;
+        background-color: transparent;
+        width: 400px;
+        height: 400px;
+        float: right;
+        margin-right: 20px;
+        color: transparent;
+
+    }
 
 
     #botao-hamburguer{
@@ -462,20 +484,26 @@ img{
 
         #carde{
     
-
-                display: flex;
-                align-items: center;
-                text-align: center;
-                justify-content: space-around;
-                flex-direction: row;
-                padding: 5% 5%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            gap: 29px;
+            width: 100%;
+            
+        
             
             }
 
+
+
+
+       
+
+
         .btn {
-            display: flex;
-            width: 100%;
-            justify-content: center;
+          
             background-color: var(--button)!important;
             color: var(--press)!important;
             border: 20px;
