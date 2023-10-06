@@ -11,9 +11,12 @@ nav
     flex-direction: row;
     justify-content: space-between;
     padding: 2% 1%;
-    left: -200px!important;
+
     
 }
+
+
+
 
 h1{
     color: var(--titulo);

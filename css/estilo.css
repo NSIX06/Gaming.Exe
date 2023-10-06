@@ -360,8 +360,9 @@ img{
         flex-direction: row;
         justify-content: space-between;
         padding: 2% 1%;
-        left: -200px;
-        
+        left: -220px!important;
+        margin-right: -50px!important;
+        margin-left: -20px;
     }
 
     a{
